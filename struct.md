@@ -9,16 +9,16 @@ roles
      tasks/main.yml
      templates/something.j2
      vars/main.yml
-     meta/main.yml #file creates a dependency on the "sslcertificates" role
+     meta/main.yml 
      files/h5bp
      handlers/main.yml
   snmp-config
      tasks/main.yml
      templates/something.j2
      vars/main.yml
-     meta/main.yml #file creates a dependency on the "sslcertificates" role
-     files/h5bp
+     meta/main.yml #file creates a dependency on the "sslcertificates"
      handlers/main.yml
+     files
    install-nagios
    nagios-plugins
    install-nconf
@@ -28,4 +28,4 @@ roles
    nagios-postinstall
 server.yml
 
-ansible-playbook --syntax-check nagios.yml
+ansible-playbook --syntax-check server.yml
