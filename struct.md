@@ -4,9 +4,10 @@ group vars
   all
 hosts 
 README.MD
-
 roles
   Apache2
+    - name: Install MySQL 
+      apt: name="{{ item }}" state=present
   nginx
      tasks/main.yml
      templates/something.j2
