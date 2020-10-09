@@ -4,8 +4,10 @@ group vars
   all
 hosts 
 README.MD
+
 roles
-  nginx
+ httpd
+ nginx
      tasks/main.yml
      templates/something.j2
      vars/main.yml
