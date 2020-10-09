@@ -5,6 +5,7 @@ group vars
 hosts 
 README.MD
 roles
+  Apache2
   nginx
      tasks/main.yml
      templates/something.j2
