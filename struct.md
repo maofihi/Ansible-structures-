@@ -5,6 +5,7 @@ group vars
 hosts 
 README.MD
 roles
+  nginex
   Apache2
     - name: Install MySQL 
       apt: name="{{ item }}" state=present
