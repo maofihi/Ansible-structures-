@@ -1,0 +1,7 @@
+list module
+===========
+
+.. automodule:: list
+    :members:
+    :undoc-members:
+    :show-inheritance:
